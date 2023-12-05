@@ -13,6 +13,13 @@
 		7ACA25EE2B1FB2250058794A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA25EC2B1FB2250058794A /* Main.storyboard */; };
 		7ACA25F02B1FB2270058794A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA25EF2B1FB2270058794A /* Assets.xcassets */; };
 		7ACA25F32B1FB2270058794A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA25F12B1FB2270058794A /* LaunchScreen.storyboard */; };
+		7ACA25FB2B1FB45F0058794A /* Task1 - findFactorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA25FA2B1FB45F0058794A /* Task1 - findFactorial.swift */; };
+		7ACA25FD2B1FB5730058794A /* Task2 - squareEachNumberInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA25FC2B1FB5730058794A /* Task2 - squareEachNumberInArray.swift */; };
+		7ACA25FF2B1FB5B90058794A /* Task3 - filterEvenNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA25FE2B1FB5B90058794A /* Task3 - filterEvenNumbers.swift */; };
+		7ACA26012B1FB6160058794A /* Task4 - sortStringsInAscendingOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA26002B1FB6160058794A /* Task4 - sortStringsInAscendingOrder.swift */; };
+		7ACA26032B1FB6570058794A /* Task5 - filterBooksByGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA26022B1FB6570058794A /* Task5 - filterBooksByGenre.swift */; };
+		7ACA26052B1FB7FD0058794A /* Task6 - uniteArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA26042B1FB7FD0058794A /* Task6 - uniteArrays.swift */; };
+		7ACA26072B1FB8480058794A /* Task7 - squareUsingMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA26062B1FB8480058794A /* Task7 - squareUsingMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		7ACA25EF2B1FB2270058794A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ACA25F22B1FB2270058794A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ACA25F42B1FB2270058794A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACA25FA2B1FB45F0058794A /* Task1 - findFactorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task1 - findFactorial.swift"; sourceTree = "<group>"; };
+		7ACA25FC2B1FB5730058794A /* Task2 - squareEachNumberInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task2 - squareEachNumberInArray.swift"; sourceTree = "<group>"; };
+		7ACA25FE2B1FB5B90058794A /* Task3 - filterEvenNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task3 - filterEvenNumbers.swift"; sourceTree = "<group>"; };
+		7ACA26002B1FB6160058794A /* Task4 - sortStringsInAscendingOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task4 - sortStringsInAscendingOrder.swift"; sourceTree = "<group>"; };
+		7ACA26022B1FB6570058794A /* Task5 - filterBooksByGenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task5 - filterBooksByGenre.swift"; sourceTree = "<group>"; };
+		7ACA26042B1FB7FD0058794A /* Task6 - uniteArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task6 - uniteArrays.swift"; sourceTree = "<group>"; };
+		7ACA26062B1FB8480058794A /* Task7 - squareUsingMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task7 - squareUsingMap.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,13 @@
 				7ACA25E62B1FB2250058794A /* AppDelegate.swift */,
 				7ACA25E82B1FB2250058794A /* SceneDelegate.swift */,
 				7ACA25EA2B1FB2250058794A /* ViewController.swift */,
+				7ACA25FA2B1FB45F0058794A /* Task1 - findFactorial.swift */,
+				7ACA25FC2B1FB5730058794A /* Task2 - squareEachNumberInArray.swift */,
+				7ACA25FE2B1FB5B90058794A /* Task3 - filterEvenNumbers.swift */,
+				7ACA26002B1FB6160058794A /* Task4 - sortStringsInAscendingOrder.swift */,
+				7ACA26022B1FB6570058794A /* Task5 - filterBooksByGenre.swift */,
+				7ACA26042B1FB7FD0058794A /* Task6 - uniteArrays.swift */,
+				7ACA26062B1FB8480058794A /* Task7 - squareUsingMap.swift */,
 				7ACA25EC2B1FB2250058794A /* Main.storyboard */,
 				7ACA25EF2B1FB2270058794A /* Assets.xcassets */,
 				7ACA25F12B1FB2270058794A /* LaunchScreen.storyboard */,
@@ -138,9 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ACA26032B1FB6570058794A /* Task5 - filterBooksByGenre.swift in Sources */,
+				7ACA26072B1FB8480058794A /* Task7 - squareUsingMap.swift in Sources */,
 				7ACA25EB2B1FB2250058794A /* ViewController.swift in Sources */,
+				7ACA25FB2B1FB45F0058794A /* Task1 - findFactorial.swift in Sources */,
+				7ACA26052B1FB7FD0058794A /* Task6 - uniteArrays.swift in Sources */,
 				7ACA25E72B1FB2250058794A /* AppDelegate.swift in Sources */,
+				7ACA26012B1FB6160058794A /* Task4 - sortStringsInAscendingOrder.swift in Sources */,
+				7ACA25FF2B1FB5B90058794A /* Task3 - filterEvenNumbers.swift in Sources */,
 				7ACA25E92B1FB2250058794A /* SceneDelegate.swift in Sources */,
+				7ACA25FD2B1FB5730058794A /* Task2 - squareEachNumberInArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
