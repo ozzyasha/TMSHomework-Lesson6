@@ -10,12 +10,14 @@ import UIKit
 class ViewController: UIViewController {
 
     let divider = "----------------------------"
+    
+    let arrayFactorial: [Int64] = [5, 25, -1, 9, 0, 1]
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
         // MARK: 1. вызов функции №1
-        
+        findFactorial(array: arrayFactorial)
         
         print(divider)
         // MARK: 2. вызов функции №2
