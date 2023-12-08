@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     let divider = "----------------------------"
     
     let arrayFactorial: [Int64] = [5, 25, -1, 9, 0, 1]
+    var x = [(1, "x"), (4, "y"), (6, "a"), (9, "u"), (5, "k")]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,9 +23,11 @@ class ViewController: UIViewController {
         
         print(divider)
         // MARK: 2. вызов функции №2
+        print("Массив с элементами, возведённым в квадрат: \(squareEachNumberInArray(arrayOfTuples: x))")
         
         print(divider)
         // MARK: 3. вызов функции №3
+        print("Только чётные элементы массива: \(filterEvenNumbers(arrayOfTuples: x))")
         
         print(divider)
         // MARK: 4. вызов функции №4
