@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         
         print(divider)
         // MARK: 4. вызов функции №4
+        print("Отсортированные элементы массива: \(sortStringsInAscendingOrder(arrayOfTuples: x))")
         
         print(divider)
         // MARK: 5. вызов функции №5
