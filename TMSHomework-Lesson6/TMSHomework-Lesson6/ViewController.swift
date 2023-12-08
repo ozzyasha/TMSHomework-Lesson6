@@ -37,6 +37,8 @@ class ViewController: UIViewController {
         // MARK: 5. вызов функции №5
         var genre = "Science Fiction"
         print("Жанр: \(genre), Книги: \(filterBooksByGenre(books: books, genre: genre))")
+        
+        print(divider)
         genre = "Programming"
         print("Жанр: \(genre), Книги: \(filterBooksByGenre(books: books, genre: genre))")
         
@@ -49,7 +51,7 @@ class ViewController: UIViewController {
         print("Массив из словарей: \(uniteArraysOfDictionaries(arrayOfSongs: songs, arrayOfGroups: groups))")
         print(divider)
         // MARK: 7. вызов функции №7
-
+        print(squareUsingMap(array: arrayWithNil))
 
     }
 
