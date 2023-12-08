@@ -35,6 +35,10 @@ class ViewController: UIViewController {
         
         print(divider)
         // MARK: 5. вызов функции №5
+        var genre = "Science Fiction"
+        print("Жанр: \(genre), Книги: \(filterBooksByGenre(books: books, genre: genre))")
+        genre = "Programming"
+        print("Жанр: \(genre), Книги: \(filterBooksByGenre(books: books, genre: genre))")
         
         print(divider)
         // MARK: 6. вызов функции №6
