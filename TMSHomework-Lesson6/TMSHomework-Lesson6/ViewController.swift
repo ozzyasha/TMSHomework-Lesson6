@@ -42,7 +42,11 @@ class ViewController: UIViewController {
         
         print(divider)
         // MARK: 6. вызов функции №6
+        print(uniteArrays(arrayOfSongs: songs, arrayOfGroups: groups))
         
+        print(divider)
+        
+        print("Массив из словарей: \(uniteArraysOfDictionaries(arrayOfSongs: songs, arrayOfGroups: groups))")
         print(divider)
         // MARK: 7. вызов функции №7
 
